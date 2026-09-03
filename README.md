@@ -1,6 +1,6 @@
 # C-Style Comment NFA Validator
 
-A C++ program that implements a Nondeterministic Finite Automaton (NFA) to validate C-style block comments. It evaluates user-inputted strings to ensure they exactly start with `/*`, end with `*/`, and do not contain the closing sequence anywhere inside the comment body.
+A C program that implements a Nondeterministic Finite Automaton (NFA) to validate C-style block comments. It evaluates user-inputted strings to ensure they exactly start with `/*`, end with `*/`, and do not contain the closing sequence anywhere inside the comment body.
 
 ## Automata Formal Definition
 
@@ -11,22 +11,22 @@ A C++ program that implements a Nondeterministic Finite Automaton (NFA) to valid
 
 ## Prerequisites
 
-* A C++ compiler (such as `g++` via MSYS2/MinGW-w64).
+* A C compiler (such as `gcc` via MSYS2/MinGW-w64).
 
 ## Compilation and Execution
 
 1. Open your terminal in the project directory.
-2. Compile the source code using `g++`:
+2. Compile the source code using `gcc`:
+
 ```bash
-g++ main.cpp -o main
+gcc main.c -o main
 
 ```
 
-
 3. Run the generated executable:
+
 * **Windows:** `.\main.exe`
 * **Mac/Linux:** `./main`
-
 
 4. Follow the interactive terminal prompts to test various valid and invalid strings.
 

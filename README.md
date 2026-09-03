@@ -9,6 +9,11 @@ A C program that implements a Nondeterministic Finite Automaton (NFA) to validat
 * **Start State:** `q0`
 * **Final/Accept State (F):** `{q4}`
 
+## sample outputs
+<img width="280" height="391" alt="image" src="https://github.com/user-attachments/assets/4f4801e7-46d1-4614-af21-2d241a6f3586" />
+<img width="304" height="472" alt="image" src="https://github.com/user-attachments/assets/2a255a8b-87ee-44cd-9275-94a79a22e040" />
+
+
 ## Prerequisites
 
 * A C compiler (such as `gcc` via MSYS2/MinGW-w64).
